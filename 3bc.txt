@@ -2,7 +2,7 @@
 from numpy import loadtxt
 from keras.models import Sequential
 from keras.layers import Dense
-dataset = loadtxt("C:\\Users\\juchavan\\Desktop\\MSCIT\\DL\\pima_indians_diabetes.csv",delimiter=',')
+dataset = loadtxt("diabetes.csv",delimiter=',')
 dataset
 model = Sequential()
 model.add(Dense(12,activation='relu',input_dim=8))
